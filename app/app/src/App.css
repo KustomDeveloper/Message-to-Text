@@ -1,0 +1,110 @@
+
+/*Add google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&display=swap');
+
+/*Declare variables*/
+:root {
+  --main-font: 'Source Sans Pro', sans-serif;
+}
+
+.chatbox {
+  position: absolute;
+  right: 10px;
+  bottom: 110px;
+  background-color: #F1F1F1;
+  width: 300px; 
+  min-height:500px;
+  padding:70px 15px 15px;
+  color:#000;
+  border-radius: 10px;
+  font-family: var(--main-font);
+}
+.chatbox input {
+  height: 40px;
+  width: 100%;
+  max-width: 270px;
+  margin-bottom:15px;
+  border: solid 1px #CBCED3;
+  border-radius: 4px;
+  padding: 0 10px;
+  font-size: 15px;
+  font-family: var(--main-font);
+}
+.chatbox textarea {
+  height: 140px;
+  width: 100%;
+  max-width: 270px;
+  border: solid 1px #CBCED3;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: var(--main-font);
+}
+.chatbox button {
+  display: block;
+  padding: 0px 12px;
+  height: 48px;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  outline: none;
+  width: 164px;
+  background-color: #d46108;
+  color: #fff;
+  font-weight: bold;
+  margin: 0 auto;
+  text-align: center;
+}
+.chatbox .top {
+  background: navy;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  position:absolute;
+  top:0;
+  width:100%;
+  left:0;
+}
+.chatbox .top h3 {
+  color: #fff;
+  font-size:20px;
+  text-align: center;
+}
+.chat_button {
+  position:absolute;
+  bottom:0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  box-shadow: 2px 2px 25px 2px rgba(0, 0, 0, 0.17);
+  cursor: pointer;
+  background-color: #d46108;
+  fill: #FFFFFF;
+  transform: scale(1.2, 1.2);
+}
+.chat-icon {
+  width: 100%;
+  max-width: 40px;
+  position:relative;
+  left: 9px;
+  top:8px;
+}
+.false {
+  display: none;
+}
+
